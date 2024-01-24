@@ -1,0 +1,96 @@
+<html>
+    <head></head>
+    <body>
+        <table width="100%">
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td valign="top">
+                        <ul>
+                            <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
+                            <li><a href="#">Dashboard</a></li>
+                            <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
+                            <li><a href="#">Calendar</a></li>
+                            <li><a href="#">Inbox</a></li>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Studio</a></li>
+                            <li><a href="#">Commons</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                    </td>
+                    <td valign="top">
+                        <ul>
+                            <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+                            <li><a href="#">Modules</a></li>
+                            <li><a href="#">Piazza</a></li>
+                            <li><a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
+                            <li><a href="#">Quizzes</a></li>
+                            <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+                        </ul> 
+                    </td>
+                    <td valign="top">
+                        <select id="grades">
+                            <option selected value="gradebook">Gradebook</option>
+                        </select>
+                        <button type="button">Import</button>
+                        <select id="export">
+                            <option selected value="'export">Export</option>
+                        </select>
+                        <button type="button">Configure</button>
+                        <br/>
+                        <h2>Student Names</h2>
+                        <form id="search-students">
+                            <input id="search-students-field" placeholder="Search Students"/><br/>
+                        </form>
+                        <h2>Assignment Names</h2>
+                        <form id="search-assignments">
+                            <input id="search-assignments-field" placeholder="Search Assignments"/><br/>
+                        </form>
+                        <button type="button">Apply Filters</button>
+                        <table border="1" width ="100%">
+                            <thead>
+                                <tr>
+                                    <th>Student Name</th>
+                                    <th>A1 SETUP<br/>Out of 100</th>
+                                    <th>A2 HTML<br/>Out of 100</th>
+                                    <th>A3 CSS<br/>Out of 100</th>
+                                    <th>A4 BOOTSTRAP<br/>Out of 100</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Alice Wonderland</td>
+                                    <td>100</td>
+                                    <td><input type=number value=100></td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>Princess Leia</td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                    <td><input type=number value=100></td>
+                                </tr>
+                                <tr>
+                                    <td>Luke Skywalker</td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                    <td><input type=number value=100></td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>Han Solo</td>
+                                    <td><input type=number value=100></td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

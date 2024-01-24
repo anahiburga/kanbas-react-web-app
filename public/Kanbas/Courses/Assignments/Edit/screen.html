@@ -1,0 +1,106 @@
+<html>
+    <head></head>
+    <body>
+        <table width="40%">
+            <tr>
+                <td valign="top">
+                    <ul>
+                        <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
+                        <li><a href="#">Calendar</a></li>
+                        <li><a href="#">Inbox</a></li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Studio</a></li>
+                        <li><a href="#">Commons</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </td>
+                <td valign="top">
+                    <ul>
+                        <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+                        <li><a href="#">Modules</a></li>
+                        <li><a href="#">Piazza</a></li>
+                        <li><a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
+                        <li><a href="#">Quizzes</a></li>
+                        <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+                    </ul> 
+                </td>
+                <td valign="top">
+                    <select>
+                        <option>SpeedGrader</option>
+                    </select>
+                    <hr>
+                    <h3>Assignment Name</h3>
+                    <input placeholder="A1"/><br/>
+                    <br/>
+                    <textarea rows="2" cols="20">This is the assignment description.</textarea><br/>
+                    <br/>
+                    <label>Points</label><br/>
+                    <input type="number" value=100/><br/>
+                    <br/>
+                    <label>Assignment Group</label><br/>
+                    <select>
+                        <option>ASSIGNMENTS</option>
+                    </select><br/>
+                    <br/>
+                    <label>Display Grade as</label><br/>
+                    <select>
+                        <option>Percentage</option>
+                    </select><br/>
+                    <br/>
+                    <label>Submission Type</label><br/>
+                    <select>
+                        <option>Online</option>
+                    </select><br/>
+                    <br/>
+                    <label>Online Entry Options</label><br/>
+                    <input type="checkbox" value="TEXTENTRY"
+                    name="check-entry" id="check-text-entry"/>
+                    <label for="check-text-entry">Text Entry</label><br/>
+                    <input type="checkbox" value="WEBSITEURL"
+                        name="check-entry" id="check-website"/>
+                    <label for="check-website">Website URL</label><br/>
+                    <input type="checkbox" value="MEDIA"
+                        name="check-entry" id="check-media" checked/>
+                    <label for="check-media">Media Recordings</label><br/>
+                    <input type="checkbox" value="ANNOTATION"
+                        name="check-entry" id="check-annotation"/>
+                    <label for="check-annotation">Student Annotations</label><br/>
+                    <input type="checkbox" id="check-file"
+                        name="check-entry" id="check-file"/>
+                    <label for="check-entry">File Uploads</label><br/>
+                    <br/>
+                    <label>Assign</label><br/>
+                    <label>Assign to</label><br/>
+                    <input placeholder="Everyone"/><br/>
+                    <br/>
+                    <label for="due-date">Due</label><br/>
+                    <input type="date"
+                            id="due-date"
+                            value="2024-01-01"/><br/>
+                    <br/>
+                    <label for="available-from">Available From</label><br/>
+                    <input type="date"
+                            id="available-from"
+                            value="2024-01-01"/><br/>
+                            <br/>
+                    <label for="until-date">Until</label><br/>
+                        <input type="date"
+                                id="until-date"
+                                value="2024-01-01"/><br/> 
+                    <br/>
+                    <table>
+                        <thead></thead>
+                        <tbody>
+                            <tr>
+                                <td><button>Cancel</button></td>
+                                <td><button>Save</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
