@@ -1,0 +1,58 @@
+.wd-list > ul {
+    background-color: lightgray;
+    list-style: none;
+}
+
+.wd-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.wd-list-calendar > ul {
+    background-color: white;
+    list-style: none;
+}
+
+.wd-list-calendar a {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-button {
+    color: black;
+    background-color: lightgray;
+    opacity: 80%;
+    border-radius: 2px;
+    border: 2px solid lightgray;
+}
+
+.wd-publish {
+    color: white;
+    background-color: green;
+    opacity: 80%;
+    border-radius: 2px;
+    border: 2px solid green;
+}
+
+.wd-class-bc {
+    color: red;
+}
+
+.wd-class-bc a {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-class-bc a:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.wd-collapse {
+    background-color: white;
+    border: none;
+}
+
+.wd-course-status {
+    padding: 10px
+}
