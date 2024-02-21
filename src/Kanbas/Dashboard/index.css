@@ -1,0 +1,6 @@
+.card-class-title a:link {
+    text-decoration: "none";
+    color: "navy";
+    font-weight: "bold"; 
+    overflow: "hidden",;
+}

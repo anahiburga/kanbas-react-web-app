@@ -56,3 +56,8 @@
 .wd-course-status {
     padding: 10px
 }
+
+.wd-view-cal {
+    color: red;
+    text-decoration: none;
+}

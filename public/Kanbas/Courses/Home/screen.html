@@ -42,11 +42,16 @@
     </div>
     <div class="wd-navigation-margin d-flex flex-fill">
       <div class="wd-class-bc">
-        <button type="button" class="wd-collapse"><i class="fa-solid fa-bars"></i></button>
-        <a href='/Kanbas/Courses/Home/screen.html'> CS4550.30083.202430  </a>
-      </div>  > Modules
-      <button type="button" class="wd-modules-buttons wd-button">Student View</button>
-      <hr/>
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <button type="button" class="wd-collapse"><i class="fa-solid fa-bars"></i></button></li>
+            <li class="breadcrumb-item">
+              <a href='/Kanbas/Courses/Home/screen.html'>CS4550.30083.202430</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Modules</li>
+          </ol>
+        </nav>
+      </div>
     </div>
     <div class="wd-navigation-margin d-block d-md-flex">
       <div class="d-none d-md-block">
@@ -61,15 +66,15 @@
         </ul>
       </div>
       <div class="flex-fill">
-        <div class="wd-modules-buttons">
-          <button type="button" class="wd-button">Collapse All</button>
-          <button type="button" class="wd-button">View Progress</button>
+        <div class="wd-modules-buttons d-flex justify-content-end">
+          <button type="button" class="wd-button wd-modules-button">Collapse All</button>
+          <button type="button" class="wd-button wd-modules-button">View Progress</button>
           <select id="publish">
               <option selected value="PUBLISH-ALL">Publish All</option>
               <option value="PUBLISH-ALL-ITEMS">Publish All Modules and Items</option>
               <option value="PUBLISH-ALL-MODULES">Publish Modules Only</option>
           </select>
-          <button type="button" class="wd-button">Module</button>
+          <button type="button" class="wd-button wd-modules-button">Module</button>
         </div>
         <hr/>
         <ul class="list-group wd-modules">
@@ -301,8 +306,13 @@
               <i class="fa-regular fa-bell"></i> View Course Notifications</a></li>
           </ul>
           <div>
-            <h4>Coming Up</h4>
-            <a href=""><i class="fa-solid fa-calendar-days"></i>View Calendar</a>
+            <div class="d-flex justify-content-between">
+                <h4>Coming Up</h4>
+              <div class="col">
+                <i class="fa-solid fa-calendar-days"></i>
+                <a class="wd-view-cal" href="">View Calendar</a>
+              </div>
+            </div>
           </div>
           <ul class="wd-list-calendar list-group">
             <li class="list-group-item"><i class="fa-solid fa-calendar-days"></i>

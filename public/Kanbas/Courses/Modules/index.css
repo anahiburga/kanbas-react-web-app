@@ -49,3 +49,7 @@
 .wd-modules-buttons {
     text-align: right;
 }
+
+.wd-modules-button {
+    margin: 5px;
+}
