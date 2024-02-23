@@ -1,6 +1,17 @@
-.card-class-title a:link {
-    text-decoration: "none";
-    color: "navy";
-    font-weight: "bold"; 
-    overflow: "hidden",;
+.card-class-title {
+    text-decoration: none;
+    color: navy;
+    font-weight: 600; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    width: 100%;
+}
+.card-class-title:hover {
+    text-decoration: underline;
+    text-decoration-color: #D41B2C;
+}
+.btn:hover {
+    color:#D41B2C;
 }

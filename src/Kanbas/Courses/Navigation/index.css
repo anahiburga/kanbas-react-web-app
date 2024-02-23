@@ -1,0 +1,39 @@
+.wd-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 100px;
+    margin: 0px;
+}
+.wd-navigation li {
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wd-navigation li.wd-active {
+    border-left: 2px solid black;
+}
+.wd-navigation li.wd-active a {
+    color: black;
+    font-weight: 600;
+}
+.wd-navigation a {
+    color: #D41B2C;
+    text-decoration: none;
+}
+.wd-navigation li:hover {
+    color: #D41B2C;
+    text-decoration: underline;
+}
+.wd-navigation li.wd-active:hover {
+    color: black;
+    text-decoration: underline;
+}
+.wd-navigation-margin {
+    margin-left: 25px;
+}
+@media (max-width: 765px) {
+    .wd-navigation {
+        display: none;
+    }
+}

@@ -3,7 +3,7 @@
     list-style: none;
     padding: 0px;  margin: 0px;
     width: 80px;
-    height: 100%;
+    height: 100vh;
     display: block;
     overflow-y: scroll;
 }
@@ -29,7 +29,16 @@
 .wd-kanbas-red-icon {
     color: #D41B2C;
 }
+.wd-kanbas-icon-size {
+    height: 30px;
+    width: 30px;
+}
 .wd-kanbas-neu-logo {
     width: 65px;
     height: 50px;
+}
+@media (max-width: 765px) {
+    .wd-kanbas-navigation {
+        display: none;
+    }
 }

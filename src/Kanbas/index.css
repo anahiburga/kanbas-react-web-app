@@ -1,0 +1,8 @@
+.kanbas-container {
+    display: flex;
+    height: 100vh;
+}
+.kanbas-content {
+    flex: 1; 
+    overflow-y: auto;
+}

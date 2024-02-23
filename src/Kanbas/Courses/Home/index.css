@@ -1,0 +1,15 @@
+.home-content {
+    display: flex;
+}
+.module-list-content {
+    flex: 1;
+  }
+.status-content {
+    flex: 0 0 300px;
+    padding-left: 20px;
+}
+@media (max-width: 1140px) {
+    .status-content {
+        display: none;
+    }
+}

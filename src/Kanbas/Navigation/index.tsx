@@ -7,16 +7,15 @@ import neuLogo from "../../images/Northeastern-University-Logo.png"
 function KanbasNavigation() {
   const links = [
     { label: "Logo",      icon: <img src={neuLogo} alt="Logo" className="wd-kanbas-neu-logo" /> },
-    { label: "Account",   icon: <FaRegUserCircle className="fs-2" />  },
-    { label: "Dashboard", icon: <FaTachometerAlt className="fs-2 wd-kanbas-red-icon" />  },
-    { label: "Courses",   icon: <FaBook className="fs-2 wd-kanbas-red-icon" />           },
-    { label: "Calendar",  icon: <FaRegCalendarAlt className="fs-2 wd-kanbas-red-icon" /> },
-    { label: "Inbox",     icon: <FaInbox className="fs-2 wd-kanbas-red-icon" /> },
-    { label: "History",   icon: <FaRegClock className="fs-2 wd-kanbas-red-icon" /> },
-    { label: "Studio",    icon: <FaNetworkWired className="fs-2 wd-kanbas-red-icon" /> },
-    { label: "Commons",   icon: <FaRightFromBracket className="fs-2 wd-kanbas-red-icon" /> },
-    { label: "  Help ",   icon: <FaRegQuestionCircle className="fs-2 wd-kanbas-red-icon" /> },
-
+    { label: "Account",   icon: <FaRegUserCircle className="fs-2 wd-kanbas-icon-size" />  },
+    { label: "Dashboard", icon: <FaTachometerAlt className="fs-2 wd-kanbas-red-icon wd-kanbas-icon-size" />  },
+    { label: "Courses",   icon: <FaBook className="fs-2 wd-kanbas-red-icon wd-kanbas-icon-size" />           },
+    { label: "Calendar",  icon: <FaRegCalendarAlt className="fs-2 wd-kanbas-red-icon wd-kanbas-icon-size" /> },
+    { label: " Inbox",    icon: <FaInbox className="fs-2 wd-kanbas-red-icon wd-kanbas-icon-size" /> },
+    { label: "History",   icon: <FaRegClock className="fs-2 wd-kanbas-red-icon wd-kanbas-icon-size" /> },
+    { label: "Studio",    icon: <FaNetworkWired className="fs-2 wd-kanbas-red-icon wd-kanbas-icon-size" /> },
+    { label: "Commons",   icon: <FaRightFromBracket className="fs-2 wd-kanbas-red-icon wd-kanbas-icon-size" /> },
+    { label: "  Help",    icon: <FaRegQuestionCircle className="fs-2 wd-kanbas-red-icon wd-kanbas-icon-size" /> },
   ];
   const { pathname } = useLocation();
   return (
