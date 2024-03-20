@@ -1,4 +1,4 @@
-import { courses } from "../Database";
+import { CourseType } from "../Database";
 import { Navigate, Route, Routes, useParams, Link, useLocation } from "react-router-dom";
 import { HiMiniBars3 } from "react-icons/hi2";
 import "./index.css";
@@ -7,7 +7,7 @@ import Modules from "./Modules";
 import Home from "./Home";
 import Assignments from "./Assignments";
 
-function Courses() {
+function Courses({ courses }: { courses: CourseType[]; }) {
     const { courseId } = useParams();
     const course = courses.find((course) => course._id === courseId);
     

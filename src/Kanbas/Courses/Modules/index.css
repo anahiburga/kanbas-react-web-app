@@ -70,3 +70,14 @@
     text-decoration: none;
     color: white;
 }
+
+.wd-modules-new-module-name {
+  border: 2px solid lightgray;
+  border-radius: 5px;
+}
+
+.wd-modules-button-delete {
+  background-color: #D41B2C;
+  border-radius: 5px;
+  color: white;
+}

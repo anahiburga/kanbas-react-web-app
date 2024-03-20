@@ -15,3 +15,16 @@
 .btn:hover {
     color:#D41B2C;
 }
+
+.class-button {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin: 2px;
+}
+  
+.class-button-delete {
+    border: 2px solid #D41B2C;
+    background-color: #D41B2C;
+    border-radius: 5px;
+    color: white;
+}
